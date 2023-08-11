@@ -61,7 +61,6 @@ class PhoneControllerIT {
 
     @BeforeAll
     static void setupAll() {
-        elasticsearchContainer.getEnvMap().put("xpack.security.enabled", "false");
         elasticsearchContainer.start();
     }
 
