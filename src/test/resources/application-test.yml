@@ -1,0 +1,3 @@
+elasticsearch-config:
+  index-names:
+    phones-index: phones-test
